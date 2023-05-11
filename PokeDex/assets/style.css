@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Ubuntu&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    background-size: cover;
+}
+.pokedexFather {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+  #pokedex {
+    max-width: 100%;
+    max-height: 100%;
+    transform: scale(1.3);
+  }
+  .pokemonNumber {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-family: 'Acme', sans-serif;;
+    bottom: 0;
+    left: 69%;
+    transform: translate(-70%, 20%);
+    padding: 5px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2em;
+  }
+  .pokemonName {
+    color: rgb(255, 255, 255);
+   font-family: 'Acme', sans-serif;;
+    position: absolute;
+    bottom: 0;
+    left: 48%;
+    transform: translate(-50%, 20%);
+    padding: 5px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2em;
+  }
+  @media (max-width: 600px) {
+    .pokemonName {
+      font-size: 1.5em;
+    }
+    .pokemonNumber {
+        font-size: 1.5em;
+      }
+  }
+  @media (max-width: 600px) {
+    #pokedex {
+      max-width: 80%;
+    }
+
+    .pokemonName {
+      font-size: 5vw;
+    }
+  }
+.pokemonImage{
+   position: absolute;
+   left: 55%; top: 73%;
+   transform: translate(-50%, -50%);
+   min-height:10% ;
+   min-width: 10%;
+}
+
+.background{
+  border-radius: 5%;
+  position: absolute;
+  left: 54.5%; top: 76%;
+  transform: translate(-50%, -50%);
+  height: 40%;
+  width: 57%;
+  border: rgb(255, 255, 255) solid 3px;
+}
+@media (max-width: 600px){
+  .background{
+    left: 53.8%; top: 76%;
+    height: 40%;
+    width: 44%;
+  }
+}
+#avanca{
+  position: absolute;
+  left: 59.7%; top: 100%;
+  transform: translate(-50%, -50%);
+  height: 3%;
+  width: 9%;
+  z-index: 2;
+
+}
+
+#desce{
+  position: absolute;
+  left: 49%; top: 100%;
+  transform: translate(-50%, -50%);
+  height: 3%;
+  width: 9%;
+  z-index: 2;
+}
+@media(max-width:600px){
+  #avanca{
+    position: absolute;
+    left: 58.8%; top: 100%;
+    transform: translate(-50%, -50%);
+    height: 3%;
+    width: 9%;
+    z-index: 2; 
+  }
+  
+  #desce{
+    position: absolute;
+    left: 49%; top: 100%;
+    transform: translate(-50%, -50%);
+    height: 3%;
+    width: 9%;
+    z-index: 2;  
+  }
+}
+
+#menos__10{
+  position: absolute;
+  left: 98.5%; top: 98%;
+  transform: translate(-50%, -50%);
+  height: 5%;
+  width: 5%;
+  z-index: 2; 
+}
+
+#mais__10{
+  position: absolute;
+  left: 98.5%; top: 88%;
+  transform: translate(-50%, -50%);
+  height: 5%;
+  width: 5%;
+  z-index: 2;
+}
+@media(max-width:600px){
+  #menos__10{
+    left: 89%;
+  }
+  #mais__10{
+    left:89% ;
+    top: 87%;
+  }
+  }
+
+
+@media (max-width: 600px){
+.pokemonNumber {
+  left: 65%;
+  top: 74%;
+    }
+  }
+  @media (max-width: 485px){
+    .pokemonNumber {
+      left: 65%;
+      top: 73%;
+        }
+      }
+    @media (max-width: 450px){
+      .pokemonNumber {
+        left: 65%;
+        top: 72%;
+          }
+        }
+          @media (max-width: 414px){
+            .pokemonNumber {
+              left: 65%;
+              top: 71%;
+                }
+    @media (max-width: 400px){
+      .pokemonNumber {
+        left: 65%;
+        top: 70%;
+          }
+      }
+}
+#pesquisa{
+  position: absolute;
+  border: solid 4px black;
+  left: 50%; top: 5%;
+  transform: translate(-50%, -50%);
+  width: 20%;
+  height: 5%;
+  font-family: 'Acme', sans-serif;
+  font-size: large;
+}
+
+#submit{
+  position: absolute;
+  border: solid 4px black;
+  border-radius: 30%;
+  left: 63%; top: 5%;
+  transform: translate(-50%, -50%);
+  width: 4%;
+  height: 5%;
+}
+
+
+
+
+  
+
+ 
